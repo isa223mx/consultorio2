@@ -12,11 +12,11 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       <header className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-blue-700">ConsultaMed</h1>
+          <h1 className="text-2xl font-bold text-blue-700">TECNOLOGICO h</h1>
           <div className="flex items-center gap-4">
             <ModeToggle />
             <div className="hidden md:flex items-center gap-2">
-              <span className="text-sm text-gray-600">Dr. Juan Pérez</span>
+              <span className="text-sm text-gray-600">dr gegra </span>
               <div className="h-8 w-8 rounded-full bg-blue-200 flex items-center justify-center text-blue-700 font-bold">
                 JP
               </div>
@@ -28,12 +28,12 @@ export default function Home() {
       <main className="container mx-auto px-4 py-8">
         <Tabs defaultValue="patient-record" className="w-full">
           <TabsList className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mb-8">
-            <TabsTrigger value="patient-record">Expediente</TabsTrigger>
-            <TabsTrigger value="medical-note">Nota Médica</TabsTrigger>
-            <TabsTrigger value="lab-request">Estudios</TabsTrigger>
-            <TabsTrigger value="imaging">Imagenología</TabsTrigger>
-            <TabsTrigger value="vital-signs">Signos Vitales</TabsTrigger>
-            <TabsTrigger value="diagnostics">Diagnósticos</TabsTrigger>
+            <TabsTrigger value="patient-record">Expediente123</TabsTrigger>
+            <TabsTrigger value="medical-note">Nota Médica123</TabsTrigger>
+            <TabsTrigger value="lab-request">Estudios123</TabsTrigger>
+            <TabsTrigger value="imaging">Imagenología123</TabsTrigger>
+            <TabsTrigger value="vital-signs">Signos Vitales123</TabsTrigger>
+            <TabsTrigger value="diagnostics">Diagnósticos123</TabsTrigger>
           </TabsList>
 
           <TabsContent value="patient-record" className="space-y-4">
@@ -64,7 +64,7 @@ export default function Home() {
 
       <footer className="bg-blue-700 text-white py-4">
         <div className="container mx-auto px-4 text-center">
-          <p>© 2025 ConsultaMed - Sistema de Consulta Médica</p>
+          <p>© 2025 ConsultaMed mbm</p>
         </div>
       </footer>
     </div>
