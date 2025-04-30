@@ -1,0 +1,21 @@
+{
+  "name": "historiales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.7",
+    "angular-expressions": "^1.4.3",
+    "bson": "^6.10.3",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.0"
+  }
+}

@@ -1,5 +1,6 @@
 import type React from "react"
 import "@/app/globals.css"
+import { AuthProvider } from "@/components/auth-context"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata = {
@@ -8,17 +9,11 @@ export const metadata = {
     generator: 'v0.dev'
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" suppressHydrationWarning>
+    <html lang="es">
       <body>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          {children}
-        </ThemeProvider>
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   )
